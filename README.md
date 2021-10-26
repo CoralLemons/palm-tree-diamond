@@ -11,6 +11,6 @@
 <li>Pie Chart with data</li>
 <li>Line Chart with data</li>
 <li>Bar Chart with data</li>
-<li></li>
-<li></li>
+<li>Basic SceneKit Scene for Demo Purposes</li>
+<li>Use of Storyboards</li>
 </ul>
