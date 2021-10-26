@@ -28,7 +28,7 @@
 		A51A58E3272871F3001E7519 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 		A51A58E527287205001E7519 /* Data Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Data Models"; sourceTree = "<group>"; };
 		A51BCDCB2728777E002E3DDF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		A51BCDCD272878D8002E3DDF /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Charts; path = DiamondDemo/Charts; sourceTree = "<group>"; };
+		A51BCDCD272878D8002E3DDF /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Charts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				A51BCDCB2728777E002E3DDF /* Podfile */,
-				A51BCDCD272878D8002E3DDF /* Charts */,
 				A51A58CE27286D0C001E7519 /* DiamondDemo */,
 				A51A58CD27286D0C001E7519 /* Products */,
 			);
@@ -63,6 +62,7 @@
 		A51A58CE27286D0C001E7519 /* DiamondDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A51BCDCD272878D8002E3DDF /* Charts */,
 				A51A58E527287205001E7519 /* Data Models */,
 				A51A58E3272871F3001E7519 /* UI */,
 				A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */,
