@@ -69,6 +69,9 @@
                         <viewLayoutGuide key="safeArea" id="utW-y1-XU7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="lineChartView" destination="LNl-gY-Nba" id="Pyr-DW-6W6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jGq-Bn-61w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,6 +87,9 @@
                         <viewLayoutGuide key="safeArea" id="XQr-K4-BDl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="pieChartView" destination="hDj-Lp-P5g" id="sJv-LI-S1M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ET-X4-FIZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,6 +105,9 @@
                         <viewLayoutGuide key="safeArea" id="y5n-L7-TWm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="barChartView" destination="izU-zo-qVq" id="53Q-rh-JXJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ze5-ma-Ret" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

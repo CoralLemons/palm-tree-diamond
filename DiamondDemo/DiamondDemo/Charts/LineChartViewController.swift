@@ -10,6 +10,8 @@ import Charts
 
 class LineChartViewController: UIViewController{
     
+    @IBOutlet weak var lineChartView: LineChartView!
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         // do after loading view

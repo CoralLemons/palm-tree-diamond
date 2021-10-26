@@ -10,6 +10,8 @@ import Charts
 
 class BarChartViewController: UIViewController{
     
+    @IBOutlet weak var barChartView: BarChartView!
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         // do after loading view
