@@ -62,8 +62,8 @@
         <!--Line Chart View Controller-->
         <scene sceneID="Wh1-QP-9X9">
             <objects>
-                <viewController id="d3p-m3-YVe" customClass="LineChartViewController" customModule="Charts" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LNl-gY-Nba">
+                <viewController id="d3p-m3-YVe" customClass="LineChartViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LNl-gY-Nba" customClass="LineChartView" customModule="Charts">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="utW-y1-XU7"/>
@@ -80,8 +80,8 @@
         <!--Pie Chart View Controller-->
         <scene sceneID="zZR-61-dgd">
             <objects>
-                <viewController id="hoy-6Z-JKQ" customClass="PieChartViewController" customModule="Charts" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hDj-Lp-P5g">
+                <viewController id="hoy-6Z-JKQ" customClass="PieChartViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hDj-Lp-P5g" customClass="PieChartView" customModule="Charts">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="XQr-K4-BDl"/>
@@ -98,8 +98,8 @@
         <!--Bar Chart View Controller-->
         <scene sceneID="Nno-Il-LUY">
             <objects>
-                <viewController id="CEC-Ma-9pY" customClass="BarChartViewController" customModule="Charts" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="izU-zo-qVq">
+                <viewController id="CEC-Ma-9pY" customClass="BarChartViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="izU-zo-qVq" customClass="BarChartView" customModule="Charts">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="y5n-L7-TWm"/>

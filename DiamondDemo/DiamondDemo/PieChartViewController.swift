@@ -15,7 +15,7 @@ class PieChartViewController: UIViewController{
     override func viewDidLoad(){
         super.viewDidLoad()
         //customizeChart
-        customizeChart(dataPoints: , values: <#T##[Double]#>)
+        customizeChart(dataPoints: users, values: screenTimeHours)
     }// end ViewDidLoad
     
     func customizeChart(dataPoints: [String], values: [Double]){

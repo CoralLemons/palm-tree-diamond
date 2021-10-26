@@ -12,10 +12,13 @@
 		A51A58D427286D0E001E7519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58D327286D0E001E7519 /* Assets.xcassets */; };
 		A51A58D727286D0E001E7519 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58D627286D0E001E7519 /* Preview Assets.xcassets */; };
 		A51A58E2272871D1001E7519 /* SceneKit Asset Catalog.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */; };
-		A51A58E4272871F3001E7519 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = A51A58E3272871F3001E7519 /* UI */; };
-		A51A58E627287205001E7519 /* Data Models in Resources */ = {isa = PBXBuildFile; fileRef = A51A58E527287205001E7519 /* Data Models */; };
 		A51BCDCC2728777E002E3DDF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDCB2728777E002E3DDF /* Podfile */; };
-		A51BCDCE272878D8002E3DDF /* Charts in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDCD272878D8002E3DDF /* Charts */; };
+		A51BCDD22728B04B002E3DDF /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD12728B04B002E3DDF /* ColorPalette.swift */; };
+		A51BCDD52728B061002E3DDF /* SimpleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD42728B060002E3DDF /* SimpleData.swift */; };
+		A51BCDD72728B06F002E3DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD62728B06E002E3DDF /* ViewController.swift */; };
+		A51BCDD92728B071002E3DDF /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD82728B071002E3DDF /* PieChartViewController.swift */; };
+		A51BCDDB2728B074002E3DDF /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */; };
+		A51BCDDD2728B077002E3DDF /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +28,14 @@
 		A51A58D327286D0E001E7519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51A58D627286D0E001E7519 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = "SceneKit Asset Catalog.scnassets"; sourceTree = "<group>"; };
-		A51A58E3272871F3001E7519 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
-		A51A58E527287205001E7519 /* Data Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Data Models"; sourceTree = "<group>"; };
 		A51BCDCB2728777E002E3DDF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		A51BCDCD272878D8002E3DDF /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Charts; sourceTree = "<group>"; };
+		A51BCDD12728B04B002E3DDF /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		A51BCDD32728B04E002E3DDF /* GenericBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenericBoard.storyboard; sourceTree = "<group>"; };
+		A51BCDD42728B060002E3DDF /* SimpleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleData.swift; sourceTree = "<group>"; };
+		A51BCDD62728B06E002E3DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A51BCDD82728B071002E3DDF /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +52,6 @@
 		A51A58C327286D0C001E7519 = {
 			isa = PBXGroup;
 			children = (
-				A51BCDCB2728777E002E3DDF /* Podfile */,
 				A51A58CE27286D0C001E7519 /* DiamondDemo */,
 				A51A58CD27286D0C001E7519 /* Products */,
 			);
@@ -62,11 +68,16 @@
 		A51A58CE27286D0C001E7519 /* DiamondDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A51BCDCD272878D8002E3DDF /* Charts */,
-				A51A58E527287205001E7519 /* Data Models */,
-				A51A58E3272871F3001E7519 /* UI */,
+				A51BCDCB2728777E002E3DDF /* Podfile */,
 				A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */,
+				A51BCDD12728B04B002E3DDF /* ColorPalette.swift */,
 				A51A58D127286D0C001E7519 /* ContentView.swift */,
+				A51BCDD42728B060002E3DDF /* SimpleData.swift */,
+				A51BCDD62728B06E002E3DDF /* ViewController.swift */,
+				A51BCDD82728B071002E3DDF /* PieChartViewController.swift */,
+				A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */,
+				A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */,
+				A51BCDD32728B04E002E3DDF /* GenericBoard.storyboard */,
 				A51A58D327286D0E001E7519 /* Assets.xcassets */,
 				A51A58D527286D0E001E7519 /* Preview Content */,
 				A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */,
@@ -141,9 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51BCDCC2728777E002E3DDF /* Podfile in Resources */,
-				A51A58E4272871F3001E7519 /* UI in Resources */,
-				A51BCDCE272878D8002E3DDF /* Charts in Resources */,
-				A51A58E627287205001E7519 /* Data Models in Resources */,
 				A51A58D727286D0E001E7519 /* Preview Assets.xcassets in Resources */,
 				A51A58E2272871D1001E7519 /* SceneKit Asset Catalog.scnassets in Resources */,
 				A51A58D427286D0E001E7519 /* Assets.xcassets in Resources */,
@@ -157,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51BCDD92728B071002E3DDF /* PieChartViewController.swift in Sources */,
+				A51BCDD72728B06F002E3DDF /* ViewController.swift in Sources */,
 				A51A58D227286D0C001E7519 /* ContentView.swift in Sources */,
 				A51A58D027286D0C001E7519 /* DiamondDemoApp.swift in Sources */,
+				A51BCDD22728B04B002E3DDF /* ColorPalette.swift in Sources */,
+				A51BCDDD2728B077002E3DDF /* BarChartViewController.swift in Sources */,
+				A51BCDDB2728B074002E3DDF /* LineChartViewController.swift in Sources */,
+				A51BCDD52728B061002E3DDF /* SimpleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

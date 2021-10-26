@@ -15,7 +15,7 @@ class LineChartViewController: UIViewController{
     override func viewDidLoad(){
         super.viewDidLoad()
         // do after loading view
-        
+        customizeChart(dataPoints: users, values: screenTimeHours)
     }// end ViewDidLoad
     
 } // end LineChartViewController
