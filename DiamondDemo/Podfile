@@ -1,0 +1,7 @@
+#  Podfile -- for Cocoapod dependencies
+#  DiamondDemo
+#  Created by Leeann Warren on 10/26/21.
+
+target 'DiamondDemoApp' do
+    pod 'SwiftCharts', '~> 0.6'
+end
