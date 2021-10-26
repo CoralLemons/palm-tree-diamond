@@ -8,9 +8,9 @@
 <br>Sample: Visuals will be put here when nearing completion
 <br>
 <ul><h3 align="left">Features</h3>
-<li>3D charts</li>
-<li></li>
-<li></li>
+<li>Pie Chart with data</li>
+<li>Line Chart with data</li>
+<li>Bar Chart with data</li>
 <li></li>
 <li></li>
 </ul>
