@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F7DB1F8F889945C42E332EB /* Pods_DiamondDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9173A5516EFB1313BA98D0 /* Pods_DiamondDemo.framework */; };
 		A51A58D027286D0C001E7519 /* DiamondDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */; };
 		A51A58D227286D0C001E7519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A58D127286D0C001E7519 /* ContentView.swift */; };
 		A51A58D427286D0E001E7519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58D327286D0E001E7519 /* Assets.xcassets */; };
@@ -22,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F9173A5516EFB1313BA98D0 /* Pods_DiamondDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiamondDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E6B1AB3BC5B59A98278E9B /* Pods-DiamondDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondDemo.release.xcconfig"; path = "Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo.release.xcconfig"; sourceTree = "<group>"; };
+		321CDFBB4D22881715386A26 /* Pods-DiamondDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondDemo.debug.xcconfig"; path = "Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A58CC27286D0C001E7519 /* DiamondDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamondDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDemoApp.swift; sourceTree = "<group>"; };
 		A51A58D127286D0C001E7519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7DB1F8F889945C42E332EB /* Pods_DiamondDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				A51A58CE27286D0C001E7519 /* DiamondDemo */,
 				A51A58CD27286D0C001E7519 /* Products */,
+				FE13441A39D95BD98A4A4DE0 /* Pods */,
+				EB157E087E50B156419C1533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +100,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EB157E087E50B156419C1533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9173A5516EFB1313BA98D0 /* Pods_DiamondDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE13441A39D95BD98A4A4DE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				321CDFBB4D22881715386A26 /* Pods-DiamondDemo.debug.xcconfig */,
+				10E6B1AB3BC5B59A98278E9B /* Pods-DiamondDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A51A58DA27286D0E001E7519 /* Build configuration list for PBXNativeTarget "DiamondDemo" */;
 			buildPhases = (
+				A01D678BE4E8311BCC68D41E /* [CP] Check Pods Manifest.lock */,
 				A51A58C827286D0C001E7519 /* Sources */,
 				A51A58C927286D0C001E7519 /* Frameworks */,
 				A51A58CA27286D0C001E7519 /* Resources */,
+				A3C8FA3BAFC5081A073C2A62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +186,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A01D678BE4E8311BCC68D41E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiamondDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C8FA3BAFC5081A073C2A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A51A58C827286D0C001E7519 /* Sources */ = {
@@ -297,6 +366,7 @@
 		};
 		A51A58DB27286D0E001E7519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321CDFBB4D22881715386A26 /* Pods-DiamondDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +397,7 @@
 		};
 		A51A58DC27286D0E001E7519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E6B1AB3BC5B59A98278E9B /* Pods-DiamondDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
