@@ -10,9 +10,26 @@ import UIKit
 class ViewController: UIViewController{
     var thisBoard: UIStoryboard?
     
+    var imageView: UIImageView = {
+        let imageView = UIImageView(frame: .zero)
+        imageView.image = UIImage(named: "Background")
+        imageView.contentMode = .scaleToFill
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        return imageView
+    }()
+    // end imageView -- allows for the rotation of screen and appropriate stretch of background img
+    
     override func viewDidLoad(){
         super.viewDidLoad()
-        view.backgroundColor =
+        
+        view.insertSubview(imageView, at: 0) // insert at the lowest view
+        NSLayoutConstraint.activate([
+            imageView.topAnchor.constraint(equalTo: view.topAnchor), // match this view to the main view's constraits
+            imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        
         thisBoard = UIStoryboard(name: "GenericBoard", bundle: nil)
     }// init thisBoard to load GenericBoard storyboard
     
