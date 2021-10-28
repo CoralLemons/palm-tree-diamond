@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F7DB1F8F889945C42E332EB /* Pods_DiamondDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9173A5516EFB1313BA98D0 /* Pods_DiamondDemo.framework */; };
-		A51A58D027286D0C001E7519 /* DiamondDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */; };
-		A51A58D227286D0C001E7519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A58D127286D0C001E7519 /* ContentView.swift */; };
 		A51A58D427286D0E001E7519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58D327286D0E001E7519 /* Assets.xcassets */; };
-		A51A58D727286D0E001E7519 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58D627286D0E001E7519 /* Preview Assets.xcassets */; };
 		A51A58E2272871D1001E7519 /* SceneKit Asset Catalog.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */; };
 		A51BCDCC2728777E002E3DDF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDCB2728777E002E3DDF /* Podfile */; };
 		A51BCDD22728B04B002E3DDF /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD12728B04B002E3DDF /* ColorPalette.swift */; };
@@ -20,6 +17,7 @@
 		A51BCDD92728B071002E3DDF /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDD82728B071002E3DDF /* PieChartViewController.swift */; };
 		A51BCDDB2728B074002E3DDF /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */; };
 		A51BCDDD2728B077002E3DDF /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */; };
+		A57FA100272B12370045C182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57FA0FF272B12370045C182 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +25,7 @@
 		10E6B1AB3BC5B59A98278E9B /* Pods-DiamondDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondDemo.release.xcconfig"; path = "Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo.release.xcconfig"; sourceTree = "<group>"; };
 		321CDFBB4D22881715386A26 /* Pods-DiamondDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondDemo.debug.xcconfig"; path = "Target Support Files/Pods-DiamondDemo/Pods-DiamondDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A58CC27286D0C001E7519 /* DiamondDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamondDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDemoApp.swift; sourceTree = "<group>"; };
-		A51A58D127286D0C001E7519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A51A58D327286D0E001E7519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A51A58D627286D0E001E7519 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = "SceneKit Asset Catalog.scnassets"; sourceTree = "<group>"; };
 		A51BCDCB2728777E002E3DDF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A51BCDD12728B04B002E3DDF /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -40,6 +35,7 @@
 		A51BCDD82728B071002E3DDF /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 		A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		A57FA0FF272B12370045C182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,28 +72,18 @@
 			isa = PBXGroup;
 			children = (
 				A51BCDCB2728777E002E3DDF /* Podfile */,
-				A51A58CF27286D0C001E7519 /* DiamondDemoApp.swift */,
 				A51BCDD12728B04B002E3DDF /* ColorPalette.swift */,
-				A51A58D127286D0C001E7519 /* ContentView.swift */,
 				A51BCDD42728B060002E3DDF /* SimpleData.swift */,
 				A51BCDD62728B06E002E3DDF /* ViewController.swift */,
+				A57FA0FF272B12370045C182 /* AppDelegate.swift */,
 				A51BCDD82728B071002E3DDF /* PieChartViewController.swift */,
 				A51BCDDC2728B077002E3DDF /* BarChartViewController.swift */,
 				A51BCDDA2728B073002E3DDF /* LineChartViewController.swift */,
 				A51BCDD32728B04E002E3DDF /* GenericBoard.storyboard */,
 				A51A58D327286D0E001E7519 /* Assets.xcassets */,
-				A51A58D527286D0E001E7519 /* Preview Content */,
 				A51A58E1272871D1001E7519 /* SceneKit Asset Catalog.scnassets */,
 			);
 			path = DiamondDemo;
-			sourceTree = "<group>";
-		};
-		A51A58D527286D0E001E7519 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A51A58D627286D0E001E7519 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EB157E087E50B156419C1533 /* Frameworks */ = {
@@ -114,7 +100,6 @@
 				321CDFBB4D22881715386A26 /* Pods-DiamondDemo.debug.xcconfig */,
 				10E6B1AB3BC5B59A98278E9B /* Pods-DiamondDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51BCDCC2728777E002E3DDF /* Podfile in Resources */,
-				A51A58D727286D0E001E7519 /* Preview Assets.xcassets in Resources */,
 				A51A58E2272871D1001E7519 /* SceneKit Asset Catalog.scnassets in Resources */,
 				A51A58D427286D0E001E7519 /* Assets.xcassets in Resources */,
 			);
@@ -234,10 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57FA100272B12370045C182 /* AppDelegate.swift in Sources */,
 				A51BCDD92728B071002E3DDF /* PieChartViewController.swift in Sources */,
 				A51BCDD72728B06F002E3DDF /* ViewController.swift in Sources */,
-				A51A58D227286D0C001E7519 /* ContentView.swift in Sources */,
-				A51A58D027286D0C001E7519 /* DiamondDemoApp.swift in Sources */,
 				A51BCDD22728B04B002E3DDF /* ColorPalette.swift in Sources */,
 				A51BCDDD2728B077002E3DDF /* BarChartViewController.swift in Sources */,
 				A51BCDDB2728B074002E3DDF /* LineChartViewController.swift in Sources */,
@@ -372,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiamondDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = P2D982X73G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -403,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiamondDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = P2D982X73G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
