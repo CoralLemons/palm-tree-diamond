@@ -21,12 +21,12 @@ class PieChartViewController: UIViewController{
     func customizeChart(dataPoints: [String], values: [Double]){
         
         var entries: [ChartDataEntry] = [] // holds the data entries for the chart
-        for value in 0..<dataPoints.count() {
+        for value in 0..<dataPoints.count {
             let dataEntry = PieChartDataEntry(value: values[value], label: dataPoints[value], data: dataPoints[values] as AnyObject)
             entries.append(dataEntry) // add dataEntry to the end of the ChartData array
         }// end for loop --
         
-        let pieChartDataSet = PieChartDataSet(values: entries, label: nil)
+        let pieChartDataSet = PieChartDataSet(entries: entries, label: nil)
         pieChartDataSet.colors = colorsOfCharts(numbersOfColors: dataPoints.count)
         
     }// end customizeChart -- pass in dataPoints and applicable values to populate (customize) the pie chart

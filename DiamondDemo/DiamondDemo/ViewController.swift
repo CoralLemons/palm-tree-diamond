@@ -13,7 +13,6 @@ class ViewController: UIViewController{
     override func viewDidLoad(){
         super.viewDidLoad()
         thisBoard = UIStoryboard(name: "GenericBoard", bundle: nil)
-        thisBoard.background(ColorPalette.primary)
         
     }// init thisBoard to load GenericBoard storyboard
     

@@ -10,6 +10,6 @@ import Foundation
 // -------------- begin chart data ----------------
 
 let users = ["Steven", "Lily", "Oren", "Stephanie", "Wren"] // 5 total
-let screenTimeHours = [4, 8, 2, 6, 2] // 5 total -- 22 hrs
+let screenTimeHours = [4.7, 8.1, 2.0, 6.4, 2.3] // 5 total -- 22 hrs
 
 // -------------- end chart data ------------
