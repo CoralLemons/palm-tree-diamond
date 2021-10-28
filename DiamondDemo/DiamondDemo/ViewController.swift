@@ -12,8 +12,8 @@ class ViewController: UIViewController{
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        view.backgroundColor =
         thisBoard = UIStoryboard(name: "GenericBoard", bundle: nil)
-        
     }// init thisBoard to load GenericBoard storyboard
     
     @IBAction func didTapLineChart(_ sender: Any){
