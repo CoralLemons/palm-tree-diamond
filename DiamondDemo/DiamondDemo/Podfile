@@ -1,4 +1,0 @@
-target 'DiamondDemo' do
- use_frameworks!
-    pod 'Charts'
-end
