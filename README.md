@@ -11,6 +11,7 @@
 <li>Pie Chart with data</li>
 <li>Line Chart with data</li>
 <li>Bar Chart with data</li>
-<li>Basic SceneKit Scene for Demo Purposes</li>
+<li>SpriteKit 2D particle effect background</li>
+<li>SceneKit 3D animation demo</li>
 <li>Use of Storyboards</li>
 </ul>
